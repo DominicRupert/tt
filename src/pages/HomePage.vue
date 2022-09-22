@@ -1,6 +1,10 @@
 <template>
-  <img alt="Vue logo" @click="play" src="https://external-preview.redd.it/a5Bwlqmz2DLkXbHWyekuWnAEPa06zrugGYORGiiuvDA.jpg?width=960&crop=smart&auto=webp&s=bcf88bf04acf77801ea3e9055c1d0e96a9a77af5">
-  <!-- <iframe src="https://archive.org/embed/teletubbyfart" width="500" height="30" frameborder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowfullscreen></iframe> -->
+  <div class="home flex-grow-1 d-flex flex-column align-items-center justify-content-center">
+    <img alt="Vue logo" @click="play" src="https://external-preview.redd.it/a5Bwlqmz2DLkXbHWyekuWnAEPa06zrugGYORGiiuvDA.jpg?width=960&crop=smart&auto=webp&s=bcf88bf04acf77801ea3e9055c1d0e96a9a77af5">
+    <div class="home-card p-5 bg-white rounded elevation-3">
+    
+    </div>
+  </div>
 </template>
 
 <script>
